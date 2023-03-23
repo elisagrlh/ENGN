@@ -870,7 +870,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &63170023
 Transform:
   m_ObjectHideFlags: 0
@@ -5071,7 +5071,7 @@ GameObject:
   - component: {fileID: 426287923}
   - component: {fileID: 426287922}
   m_Layer: 5
-  m_Name: But81
+  m_Name: But14_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11015,7 +11015,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &843455591
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11522,7 +11522,7 @@ GameObject:
   - component: {fileID: 890952560}
   - component: {fileID: 890952559}
   m_Layer: 5
-  m_Name: But82
+  m_Name: But14_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17709,7 +17709,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1290425409
 Transform:
   m_ObjectHideFlags: 0
@@ -20477,7 +20477,7 @@ GameObject:
   - component: {fileID: 1538434327}
   - component: {fileID: 1538434326}
   m_Layer: 5
-  m_Name: But83
+  m_Name: But14_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27619,7 +27619,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2130363596
 RectTransform:
   m_ObjectHideFlags: 0
@@ -27637,7 +27637,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -19}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2130363597
@@ -27660,9 +27660,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "F : Alors j'aime bien les sciences mais comme mes notes sont nulles on
-    m'a conseill\xE9 un CAP, je pensais \xE0 coiffure vu que ma m\xE8re m'y pousse
-    un peu, et puis c'est ce que font les filles non ? J'esp\xE8re que j'aimerai..."
+  m_text: 'F : Vous pensez qu''une autre voie pourrait mieux me correspondre ?'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
