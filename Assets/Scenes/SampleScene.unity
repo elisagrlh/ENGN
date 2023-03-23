@@ -4468,9 +4468,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "F : Alors j'aime bien les sciences mais comme mes notes sont nulles on
-    m'a conseill\xE9 un CAP, je pensais \xE0 coiffure vu que ma m\xE8re m'y pousse
-    un peu, et puis c'est ce que font les filles non ? J'esp\xE8re que j'aimerai..."
+  m_text: 'test
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
