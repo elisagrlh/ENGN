@@ -11,6 +11,11 @@ public class Switching : MonoBehaviour
     public GameObject displayTxt;
     public GameObject pannelError;
     public GameObject BoutonReset;
+
+    //Elisa
+    //public int score;
+
+
     public void Switch()
     {
         deleteObj.SetActive(false);
