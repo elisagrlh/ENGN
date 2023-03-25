@@ -914,9 +914,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deleteObj: {fileID: 63170022}
-  displayObj: {fileID: 331163950}
-  deleteTxt: {fileID: 515821127}
-  displayTxt: {fileID: 42473656}
+  displayObj: {fileID: 1290425408}
+  deleteTxt: {fileID: 843455590}
+  displayTxt: {fileID: 2130363595}
   pannelError: {fileID: 1685454507}
   BoutonReset: {fileID: 580893022}
 --- !u!1 &71404954
@@ -1323,6 +1323,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 535730625}
+        m_TargetAssemblyTypeName: Switching, Assembly-CSharp
+        m_MethodName: Switch
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &86994546
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1678,7 +1690,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 180, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -37}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &119717096
@@ -1876,6 +1888,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 63170024}
+        m_TargetAssemblyTypeName: Switching, Assembly-CSharp
+        m_MethodName: Echec
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 63170024}
+        m_TargetAssemblyTypeName: Switching, Assembly-CSharp
+        m_MethodName: resetScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &153935390
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2023,6 +2059,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 691652423}
+        m_TargetAssemblyTypeName: Switching, Assembly-CSharp
+        m_MethodName: Switch
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &169782936
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2162,6 +2210,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: Scoring, Assembly-CSharp
         m_MethodName: OnClick
         m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1074040923}
+        m_TargetAssemblyTypeName: Switching, Assembly-CSharp
+        m_MethodName: Switch
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2317,6 +2377,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1069726593}
+        m_TargetAssemblyTypeName: Switching, Assembly-CSharp
+        m_MethodName: Switch
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &207190399
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2414,9 +2486,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deleteObj: {fileID: 214776452}
-  displayObj: {fileID: 331163950}
-  deleteTxt: {fileID: 515821127}
-  displayTxt: {fileID: 42473656}
+  displayObj: {fileID: 338526518}
+  deleteTxt: {fileID: 395853945}
+  displayTxt: {fileID: 1480668770}
   pannelError: {fileID: 1685454507}
   BoutonReset: {fileID: 580893022}
 --- !u!1 &219731652
@@ -2432,7 +2504,6 @@ GameObject:
   - component: {fileID: 219731656}
   - component: {fileID: 219731655}
   - component: {fileID: 219731658}
-  - component: {fileID: 219731654}
   m_Layer: 5
   m_Name: But16_4
   m_TagString: Untagged
@@ -2461,24 +2532,6 @@ RectTransform:
   m_AnchoredPosition: {x: 368.08868, y: 17.430405}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &219731654
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 219731652}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: efe4b21ae6b0bea4cb2976852a5c4a09, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  deleteObj: {fileID: 8813894}
-  displayObj: {fileID: 1463550172}
-  deleteTxt: {fileID: 1046965980}
-  displayTxt: {fileID: 1607162201}
-  pannelError: {fileID: 0}
-  BoutonReset: {fileID: 0}
 --- !u!114 &219731655
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2523,7 +2576,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 219731654}
+      - m_Target: {fileID: 1074040923}
         m_TargetAssemblyTypeName: Switching, Assembly-CSharp
         m_MethodName: Switch
         m_Mode: 1
@@ -2804,9 +2857,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deleteObj: {fileID: 236041026}
-  displayObj: {fileID: 331163950}
-  deleteTxt: {fileID: 515821127}
-  displayTxt: {fileID: 42473656}
+  displayObj: {fileID: 691652421}
+  deleteTxt: {fileID: 1533611346}
+  displayTxt: {fileID: 971985189}
   pannelError: {fileID: 1685454507}
   BoutonReset: {fileID: 580893022}
 --- !u!1 &250341726
@@ -3041,6 +3094,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 283541555}
+        m_TargetAssemblyTypeName: Switching, Assembly-CSharp
+        m_MethodName: Switch
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &256895359
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3126,7 +3191,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 356}
+  m_AnchoredPosition: {x: 354, y: 328}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &268547434
@@ -3235,6 +3300,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 283541554}
+  - component: {fileID: 283541555}
   m_Layer: 0
   m_Name: Situation8b
   m_TagString: Untagged
@@ -3258,6 +3324,24 @@ Transform:
   m_Father: {fileID: 1587543795}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &283541555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 283541553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efe4b21ae6b0bea4cb2976852a5c4a09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deleteObj: {fileID: 283541553}
+  displayObj: {fileID: 236041026}
+  deleteTxt: {fileID: 119717094}
+  displayTxt: {fileID: 1533611346}
+  pannelError: {fileID: 1685454507}
+  BoutonReset: {fileID: 580893022}
 --- !u!1 &290095935
 GameObject:
   m_ObjectHideFlags: 0
@@ -3668,9 +3752,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deleteObj: {fileID: 330908085}
-  displayObj: {fileID: 331163950}
-  deleteTxt: {fileID: 515821127}
-  displayTxt: {fileID: 42473656}
+  displayObj: {fileID: 647209076}
+  deleteTxt: {fileID: 492778103}
+  displayTxt: {fileID: 1365744704}
   pannelError: {fileID: 1685454507}
   BoutonReset: {fileID: 580893022}
 --- !u!1 &331163950
@@ -3682,6 +3766,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 331163951}
+  - component: {fileID: 331163952}
   m_Layer: 0
   m_Name: Situation8a
   m_TagString: Untagged
@@ -3706,6 +3791,24 @@ Transform:
   m_Father: {fileID: 1587543795}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &331163952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 331163950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efe4b21ae6b0bea4cb2976852a5c4a09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deleteObj: {fileID: 331163950}
+  displayObj: {fileID: 236041026}
+  deleteTxt: {fileID: 42473656}
+  displayTxt: {fileID: 1533611346}
+  pannelError: {fileID: 1685454507}
+  BoutonReset: {fileID: 580893022}
 --- !u!1 &333082697
 GameObject:
   m_ObjectHideFlags: 0
@@ -3753,9 +3856,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deleteObj: {fileID: 333082697}
-  displayObj: {fileID: 331163950}
-  deleteTxt: {fileID: 515821127}
-  displayTxt: {fileID: 42473656}
+  displayObj: {fileID: 330908085}
+  deleteTxt: {fileID: 977832894}
+  displayTxt: {fileID: 492778103}
   pannelError: {fileID: 1685454507}
   BoutonReset: {fileID: 580893022}
 --- !u!1 &338526518
@@ -3804,9 +3907,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deleteObj: {fileID: 338526518}
-  displayObj: {fileID: 331163950}
-  deleteTxt: {fileID: 515821127}
-  displayTxt: {fileID: 42473656}
+  displayObj: {fileID: 1074040921}
+  deleteTxt: {fileID: 1480668770}
+  displayTxt: {fileID: 411733845}
   pannelError: {fileID: 1685454507}
   BoutonReset: {fileID: 580893022}
 --- !u!1 &341160492
@@ -3959,6 +4062,7 @@ GameObject:
   - component: {fileID: 383106835}
   - component: {fileID: 383106834}
   - component: {fileID: 383106837}
+  - component: {fileID: 383106838}
   m_Layer: 5
   m_Name: But9b3
   m_TagString: Untagged
@@ -4043,6 +4147,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 383106838}
+        m_TargetAssemblyTypeName: Switching, Assembly-CSharp
+        m_MethodName: Switch
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &383106835
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4093,6 +4209,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fb11039d20f11345a76904ec88d2e39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &383106838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 383106832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efe4b21ae6b0bea4cb2976852a5c4a09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deleteObj: {fileID: 1415880358}
+  displayObj: {fileID: 1069726591}
+  deleteTxt: {fileID: 1369675423}
+  displayTxt: {fileID: 517969781}
+  pannelError: {fileID: 1685454507}
+  BoutonReset: {fileID: 580893022}
 --- !u!1 &385832980
 GameObject:
   m_ObjectHideFlags: 0
@@ -4233,7 +4367,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 180, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -35}
+  m_AnchoredPosition: {x: 0, y: -8}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &395853947
@@ -4503,7 +4637,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 180, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -14}
+  m_AnchoredPosition: {x: 0, y: -31}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &411733847
@@ -4650,9 +4784,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deleteObj: {fileID: 415519756}
-  displayObj: {fileID: 331163950}
-  deleteTxt: {fileID: 515821127}
-  displayTxt: {fileID: 42473656}
+  displayObj: {fileID: 846310083}
+  deleteTxt: {fileID: 917225975}
+  displayTxt: {fileID: 1667616362}
   pannelError: {fileID: 1685454507}
   BoutonReset: {fileID: 580893022}
 --- !u!1 &424133525
@@ -4940,6 +5074,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1290425410}
+        m_TargetAssemblyTypeName: Switching, Assembly-CSharp
+        m_MethodName: Echec
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1290425410}
+        m_TargetAssemblyTypeName: Switching, Assembly-CSharp
+        m_MethodName: resetScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &426287923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5083,6 +5241,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 63170024}
+        m_TargetAssemblyTypeName: Switching, Assembly-CSharp
+        m_MethodName: Switch
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -5504,6 +5674,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1415880360}
+        m_TargetAssemblyTypeName: Switching, Assembly-CSharp
+        m_MethodName: resetScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1415880360}
+        m_TargetAssemblyTypeName: Switching, Assembly-CSharp
+        m_MethodName: Echec
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &490011489
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5589,7 +5783,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 180, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -28}
+  m_AnchoredPosition: {x: 0, y: -16}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &492778105
@@ -6054,7 +6248,7 @@ RectTransform:
   m_GameObject: {fileID: 515821127}
   m_LocalRotation: {x: 0, y: 0, z: -1, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.88, y: 0.88, z: 0.88}
+  m_LocalScale: {x: 0.82, y: 0.82, z: 0.82}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 385832981}
@@ -6062,7 +6256,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 180, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -28}
+  m_AnchoredPosition: {x: 0, y: -22}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &515821129
@@ -6253,6 +6447,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: Scoring, Assembly-CSharp
         m_MethodName: OnClick
         m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 913426068}
+        m_TargetAssemblyTypeName: Switching, Assembly-CSharp
+        m_MethodName: Switch
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -6544,6 +6750,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 415519758}
+        m_TargetAssemblyTypeName: Switching, Assembly-CSharp
+        m_MethodName: Switch
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &519052157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6695,9 +6913,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deleteObj: {fileID: 535730623}
-  displayObj: {fileID: 331163950}
-  deleteTxt: {fileID: 515821127}
-  displayTxt: {fileID: 42473656}
+  displayObj: {fileID: 846310083}
+  deleteTxt: {fileID: 477634020}
+  displayTxt: {fileID: 1667616362}
   pannelError: {fileID: 1685454507}
   BoutonReset: {fileID: 580893022}
 --- !u!1 &550895113
@@ -6727,7 +6945,7 @@ RectTransform:
   m_GameObject: {fileID: 550895113}
   m_LocalRotation: {x: 0, y: 0, z: -1, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
+  m_LocalScale: {x: 0.93, y: 0.93, z: 0.93}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 385832981}
@@ -6735,7 +6953,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 180, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -27}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &550895115
@@ -6768,7 +6986,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278190080
   m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -6884,9 +7102,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deleteObj: {fileID: 564161024}
-  displayObj: {fileID: 331163950}
-  deleteTxt: {fileID: 515821127}
-  displayTxt: {fileID: 42473656}
+  displayObj: {fileID: 338526518}
+  deleteTxt: {fileID: 457687795}
+  displayTxt: {fileID: 1480668770}
   pannelError: {fileID: 1685454507}
   BoutonReset: {fileID: 580893022}
 --- !u!1 &566785501
@@ -7121,6 +7339,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1415880360}
+        m_TargetAssemblyTypeName: Switching, Assembly-CSharp
+        m_MethodName: Switch
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &568868014
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7268,6 +7498,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 331163952}
+        m_TargetAssemblyTypeName: Switching, Assembly-CSharp
+        m_MethodName: Switch
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &576250795
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7330,6 +7572,7 @@ GameObject:
   - component: {fileID: 580893026}
   - component: {fileID: 580893025}
   - component: {fileID: 580893024}
+  - component: {fileID: 580893027}
   m_Layer: 5
   m_Name: ResetBut
   m_TagString: Untagged
@@ -7402,7 +7645,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8813896}
+      - m_Target: {fileID: 580893027}
         m_TargetAssemblyTypeName: Switching, Assembly-CSharp
         m_MethodName: resetScene
         m_Mode: 1
@@ -7452,6 +7695,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 580893022}
   m_CullTransparentMesh: 1
+--- !u!114 &580893027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 580893022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efe4b21ae6b0bea4cb2976852a5c4a09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deleteObj: {fileID: 0}
+  displayObj: {fileID: 0}
+  deleteTxt: {fileID: 0}
+  displayTxt: {fileID: 0}
+  pannelError: {fileID: 0}
+  BoutonReset: {fileID: 0}
 --- !u!1 &587816678
 GameObject:
   m_ObjectHideFlags: 0
@@ -7815,6 +8076,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 236041028}
+        m_TargetAssemblyTypeName: Switching, Assembly-CSharp
+        m_MethodName: Switch
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -8307,7 +8580,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 647209077}
-  - component: {fileID: 647209078}
   m_Layer: 0
   m_Name: Situation22
   m_TagString: Untagged
@@ -8323,7 +8595,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 647209076}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -146, z: 0}
+  m_LocalPosition: {x: 0, y: -252, z: 0}
   m_LocalScale: {x: 0.79, y: 0.79, z: 0.79}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -8331,24 +8603,6 @@ Transform:
   m_Father: {fileID: 1587543795}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &647209078
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 647209076}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: efe4b21ae6b0bea4cb2976852a5c4a09, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  deleteObj: {fileID: 647209076}
-  displayObj: {fileID: 331163950}
-  deleteTxt: {fileID: 515821127}
-  displayTxt: {fileID: 42473656}
-  pannelError: {fileID: 1685454507}
-  BoutonReset: {fileID: 580893022}
 --- !u!1 &648215973
 GameObject:
   m_ObjectHideFlags: 0
@@ -8831,9 +9085,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deleteObj: {fileID: 691652421}
-  displayObj: {fileID: 331163950}
-  deleteTxt: {fileID: 515821127}
-  displayTxt: {fileID: 42473656}
+  displayObj: {fileID: 1415880358}
+  deleteTxt: {fileID: 971985189}
+  displayTxt: {fileID: 1369675423}
   pannelError: {fileID: 1685454507}
   BoutonReset: {fileID: 580893022}
 --- !u!1 &705507993
@@ -8929,7 +9183,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 109.25, y: -30, z: 0}
 --- !u!114 &705507996
 MonoBehaviour:
@@ -9036,6 +9290,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 872758439}
+        m_TargetAssemblyTypeName: Switching, Assembly-CSharp
+        m_MethodName: Switch
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -9340,6 +9606,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 564161026}
+        m_TargetAssemblyTypeName: Switching, Assembly-CSharp
+        m_MethodName: Switch
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &724362058
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9479,6 +9757,30 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: Scoring, Assembly-CSharp
         m_MethodName: OnClick
         m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1074040923}
+        m_TargetAssemblyTypeName: Switching, Assembly-CSharp
+        m_MethodName: Echec
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1074040923}
+        m_TargetAssemblyTypeName: Switching, Assembly-CSharp
+        m_MethodName: resetScene
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -9814,7 +10116,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
 --- !u!95 &764346648
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -9831,7 +10133,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &770304639
 GameObject:
   m_ObjectHideFlags: 0
@@ -9991,6 +10293,7 @@ GameObject:
   - component: {fileID: 771997207}
   - component: {fileID: 771997206}
   - component: {fileID: 771997209}
+  - component: {fileID: 771997210}
   m_Layer: 5
   m_Name: But94
   m_TagString: Untagged
@@ -10063,7 +10366,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1072935307}
+      - m_Target: {fileID: 771997210}
         m_TargetAssemblyTypeName: Switching, Assembly-CSharp
         m_MethodName: Switch
         m_Mode: 1
@@ -10137,6 +10440,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fb11039d20f11345a76904ec88d2e39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &771997210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 771997204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efe4b21ae6b0bea4cb2976852a5c4a09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deleteObj: {fileID: 236041026}
+  displayObj: {fileID: 1415880358}
+  deleteTxt: {fileID: 1533611346}
+  displayTxt: {fileID: 1369675423}
+  pannelError: {fileID: 1685454507}
+  BoutonReset: {fileID: 580893022}
 --- !u!1 &779716519
 GameObject:
   m_ObjectHideFlags: 0
@@ -10640,6 +10961,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1069726593}
+        m_TargetAssemblyTypeName: Switching, Assembly-CSharp
+        m_MethodName: Echec
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1069726593}
+        m_TargetAssemblyTypeName: Switching, Assembly-CSharp
+        m_MethodName: resetScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &808900965
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10699,7 +11044,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 12dcd371cee2a5142bc173672316e818, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 12dcd371cee2a5142bc173672316e818, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10987,6 +11332,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1490520521}
+        m_TargetAssemblyTypeName: Switching, Assembly-CSharp
+        m_MethodName: Switch
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &824262532
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11220,9 +11577,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deleteObj: {fileID: 846310083}
-  displayObj: {fileID: 331163950}
-  deleteTxt: {fileID: 515821127}
-  displayTxt: {fileID: 42473656}
+  displayObj: {fileID: 63170022}
+  deleteTxt: {fileID: 1667616362}
+  displayTxt: {fileID: 843455590}
   pannelError: {fileID: 1685454507}
   BoutonReset: {fileID: 580893022}
 --- !u!1 &866218223
@@ -11646,6 +12003,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1290425410}
+        m_TargetAssemblyTypeName: Switching, Assembly-CSharp
+        m_MethodName: Switch
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &890952560
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11936,9 +12305,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deleteObj: {fileID: 913426066}
-  displayObj: {fileID: 331163950}
-  deleteTxt: {fileID: 515821127}
-  displayTxt: {fileID: 42473656}
+  displayObj: {fileID: 1490520519}
+  deleteTxt: {fileID: 1717697884}
+  displayTxt: {fileID: 38386664}
   pannelError: {fileID: 1685454507}
   BoutonReset: {fileID: 580893022}
 --- !u!1 &914829204
@@ -12699,7 +13068,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 18.773, y: 67.26, z: 0}
 --- !u!1 &971985189
 GameObject:
@@ -12871,7 +13240,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 180, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -36}
+  m_AnchoredPosition: {x: 0, y: -3}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &977832896
@@ -13205,6 +13574,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 236041028}
+        m_TargetAssemblyTypeName: Switching, Assembly-CSharp
+        m_MethodName: Switch
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1004567851
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13307,6 +13688,184 @@ MonoBehaviour:
   displayObj: {fileID: 1463550172}
   deleteTxt: {fileID: 1104804279}
   displayTxt: {fileID: 1607162201}
+  pannelError: {fileID: 1685454507}
+  BoutonReset: {fileID: 580893022}
+--- !u!1 &1032365156
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1032365157}
+  - component: {fileID: 1032365161}
+  - component: {fileID: 1032365160}
+  - component: {fileID: 1032365159}
+  - component: {fileID: 1032365158}
+  - component: {fileID: 1032365162}
+  m_Layer: 5
+  m_Name: But18_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1032365157
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032365156}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.3, y: 2.02, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1193662302}
+  m_Father: {fileID: 1490520520}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 372, y: 46}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1032365158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032365156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fb11039d20f11345a76904ec88d2e39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1032365159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032365156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1032365160}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1587543796}
+        m_TargetAssemblyTypeName: Scoring, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1032365156}
+        m_TargetAssemblyTypeName: Scoring, Assembly-CSharp
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1032365160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032365156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1032365161
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032365156}
+  m_CullTransparentMesh: 1
+--- !u!114 &1032365162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032365156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efe4b21ae6b0bea4cb2976852a5c4a09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deleteObj: {fileID: 1490520519}
+  displayObj: {fileID: 333082697}
+  deleteTxt: {fileID: 38386664}
+  displayTxt: {fileID: 977832894}
   pannelError: {fileID: 1685454507}
   BoutonReset: {fileID: 580893022}
 --- !u!1 &1046965980
@@ -13491,9 +14050,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deleteObj: {fileID: 1069726591}
-  displayObj: {fileID: 331163950}
-  deleteTxt: {fileID: 515821127}
-  displayTxt: {fileID: 42473656}
+  displayObj: {fileID: 415519756}
+  deleteTxt: {fileID: 517969781}
+  displayTxt: {fileID: 917225975}
   pannelError: {fileID: 1685454507}
   BoutonReset: {fileID: 580893022}
 --- !u!1 &1072935302
@@ -13875,9 +14434,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deleteObj: {fileID: 1074040921}
-  displayObj: {fileID: 331163950}
-  deleteTxt: {fileID: 515821127}
-  displayTxt: {fileID: 42473656}
+  displayObj: {fileID: 913426066}
+  deleteTxt: {fileID: 411733845}
+  displayTxt: {fileID: 1717697884}
   pannelError: {fileID: 1685454507}
   BoutonReset: {fileID: 580893022}
 --- !u!1 &1078387999
@@ -14112,6 +14671,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1155236889}
+        m_TargetAssemblyTypeName: Switching, Assembly-CSharp
+        m_MethodName: Echec
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155236889}
+        m_TargetAssemblyTypeName: Switching, Assembly-CSharp
+        m_MethodName: resetScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1098157922
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14335,7 +14918,7 @@ RectTransform:
   m_GameObject: {fileID: 1104804279}
   m_LocalRotation: {x: 0, y: 0, z: -1, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
+  m_LocalScale: {x: 0.91, y: 0.91, z: 0.91}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 385832981}
@@ -14343,7 +14926,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 180, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -15}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1104804281
@@ -14533,6 +15116,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: Scoring, Assembly-CSharp
         m_MethodName: OnClick
         m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 913426068}
+        m_TargetAssemblyTypeName: Switching, Assembly-CSharp
+        m_MethodName: Switch
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -15108,6 +15703,30 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: Scoring, Assembly-CSharp
         m_MethodName: OnClick
         m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 913426068}
+        m_TargetAssemblyTypeName: Switching, Assembly-CSharp
+        m_MethodName: resetScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 913426068}
+        m_TargetAssemblyTypeName: Switching, Assembly-CSharp
+        m_MethodName: Echec
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -15930,9 +16549,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deleteObj: {fileID: 1155236887}
-  displayObj: {fileID: 331163950}
-  deleteTxt: {fileID: 515821127}
-  displayTxt: {fileID: 42473656}
+  displayObj: {fileID: 333082697}
+  deleteTxt: {fileID: 2017921431}
+  displayTxt: {fileID: 977832894}
   pannelError: {fileID: 1685454507}
   BoutonReset: {fileID: 580893022}
 --- !u!1 &1169475625
@@ -15970,7 +16589,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000030517578, y: 356.00006}
+  m_AnchoredPosition: {x: -0.000030517578, y: 168}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1169475627
@@ -15993,7 +16612,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Fini, bien jou\xE9 !"
+  m_text: "Vous avez fini, bien jou\xE9 !"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -16235,13 +16854,13 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1032365157}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1193662303
 MonoBehaviour:
@@ -16592,6 +17211,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 214776454}
+        m_TargetAssemblyTypeName: Switching, Assembly-CSharp
+        m_MethodName: Switch
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -17244,7 +17875,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000030517578, y: 356.00006}
+  m_AnchoredPosition: {x: 359, y: 328}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1266400636
@@ -17664,9 +18295,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deleteObj: {fileID: 1290425408}
-  displayObj: {fileID: 331163950}
-  deleteTxt: {fileID: 515821127}
-  displayTxt: {fileID: 42473656}
+  displayObj: {fileID: 564161024}
+  deleteTxt: {fileID: 2130363595}
+  displayTxt: {fileID: 457687795}
   pannelError: {fileID: 1685454507}
   BoutonReset: {fileID: 580893022}
 --- !u!1 &1301479956
@@ -17893,6 +18524,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: Scoring, Assembly-CSharp
         m_MethodName: OnClick
         m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1074040923}
+        m_TargetAssemblyTypeName: Switching, Assembly-CSharp
+        m_MethodName: Switch
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -18183,6 +18826,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 535730625}
+        m_TargetAssemblyTypeName: Switching, Assembly-CSharp
+        m_MethodName: Echec
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 535730625}
+        m_TargetAssemblyTypeName: Switching, Assembly-CSharp
+        m_MethodName: resetScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1362207499
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18291,7 +18958,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "F : Super merci beaucoup en tous cas,\nbonne apr\xE8s midi !"
+  m_text: "F : Super merci beaucoup en tous cas,\nbonne soir\xE9e !"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -18821,9 +19488,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deleteObj: {fileID: 1415880358}
-  displayObj: {fileID: 331163950}
-  deleteTxt: {fileID: 515821127}
-  displayTxt: {fileID: 42473656}
+  displayObj: {fileID: 535730623}
+  deleteTxt: {fileID: 1369675423}
+  displayTxt: {fileID: 477634020}
   pannelError: {fileID: 1685454507}
   BoutonReset: {fileID: 580893022}
 --- !u!1 &1427064635
@@ -18893,6 +19560,7 @@ GameObject:
   - component: {fileID: 1428905903}
   - component: {fileID: 1428905902}
   - component: {fileID: 1428905905}
+  - component: {fileID: 1428905906}
   m_Layer: 5
   m_Name: But15_2
   m_TagString: Untagged
@@ -18977,6 +19645,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1428905906}
+        m_TargetAssemblyTypeName: Switching, Assembly-CSharp
+        m_MethodName: Switch
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1428905903
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19027,6 +19707,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fb11039d20f11345a76904ec88d2e39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1428905906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1428905900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efe4b21ae6b0bea4cb2976852a5c4a09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deleteObj: {fileID: 564161024}
+  displayObj: {fileID: 214776452}
+  deleteTxt: {fileID: 457687795}
+  displayTxt: {fileID: 395853945}
+  pannelError: {fileID: 1685454507}
+  BoutonReset: {fileID: 580893022}
 --- !u!1 &1431639720
 GameObject:
   m_ObjectHideFlags: 0
@@ -19798,6 +20496,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 824262530}
+  - {fileID: 1032365157}
   m_Father: {fileID: 1587543795}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -19814,9 +20513,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deleteObj: {fileID: 1490520519}
-  displayObj: {fileID: 331163950}
-  deleteTxt: {fileID: 515821127}
-  displayTxt: {fileID: 42473656}
+  displayObj: {fileID: 1155236887}
+  deleteTxt: {fileID: 38386664}
+  displayTxt: {fileID: 2017921431}
   pannelError: {fileID: 1685454507}
   BoutonReset: {fileID: 580893022}
 --- !u!1 &1497395172
@@ -19908,6 +20607,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: Scoring, Assembly-CSharp
         m_MethodName: OnClick
         m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 333082699}
+        m_TargetAssemblyTypeName: Switching, Assembly-CSharp
+        m_MethodName: Switch
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -20335,6 +21046,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 63170024}
+        m_TargetAssemblyTypeName: Switching, Assembly-CSharp
+        m_MethodName: Switch
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1527767867
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20618,6 +21341,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1290425410}
+        m_TargetAssemblyTypeName: Switching, Assembly-CSharp
+        m_MethodName: Switch
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1538434327
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20761,6 +21496,30 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: -1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 214776454}
+        m_TargetAssemblyTypeName: Switching, Assembly-CSharp
+        m_MethodName: Echec
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 214776454}
+        m_TargetAssemblyTypeName: Switching, Assembly-CSharp
+        m_MethodName: resetScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -21514,7 +22273,7 @@ RectTransform:
   - {fileID: 580893023}
   - {fileID: 2081495721}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -21528,131 +22287,6 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1587543791}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4fb11039d20f11345a76904ec88d2e39, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1 &1598429330
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1598429334}
-  - component: {fileID: 1598429333}
-  - component: {fileID: 1598429332}
-  - component: {fileID: 1598429335}
-  m_Layer: 5
-  m_Name: But18_2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1598429332
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1598429330}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 1598429333}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1587543796}
-        m_TargetAssemblyTypeName: Scoring, Assembly-CSharp
-        m_MethodName: OnClick
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &1598429333
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1598429330}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1598429334
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1598429330}
-  m_CullTransparentMesh: 1
---- !u!114 &1598429335
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1598429330}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4fb11039d20f11345a76904ec88d2e39, type: 3}
@@ -21820,7 +22454,7 @@ RectTransform:
   m_GameObject: {fileID: 1607162201}
   m_LocalRotation: {x: 0, y: 0, z: -1, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
+  m_LocalScale: {x: 0.82, y: 0.82, z: 0.82}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 385832981}
@@ -21828,7 +22462,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 180, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -26}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1607162203
@@ -22580,6 +23214,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 236041028}
+        m_TargetAssemblyTypeName: Switching, Assembly-CSharp
+        m_MethodName: Echec
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 236041028}
+        m_TargetAssemblyTypeName: Switching, Assembly-CSharp
+        m_MethodName: resetScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1656668911
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22719,6 +23377,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: Scoring, Assembly-CSharp
         m_MethodName: OnClick
         m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1155236889}
+        m_TargetAssemblyTypeName: Switching, Assembly-CSharp
+        m_MethodName: Switch
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -23157,6 +23827,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 330908087}
+        m_TargetAssemblyTypeName: Switching, Assembly-CSharp
+        m_MethodName: Switch
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1675889828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23583,8 +24265,8 @@ MonoBehaviour:
   displayObj: {fileID: 1427064635}
   deleteTxt: {fileID: 550895113}
   displayTxt: {fileID: 2043954574}
-  pannelError: {fileID: 0}
-  BoutonReset: {fileID: 0}
+  pannelError: {fileID: 1685454507}
+  BoutonReset: {fileID: 580893022}
 --- !u!1 &1717697884
 GameObject:
   m_ObjectHideFlags: 0
@@ -23819,6 +24501,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 564161026}
+        m_TargetAssemblyTypeName: Switching, Assembly-CSharp
+        m_MethodName: Switch
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1720856454
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24031,7 +24725,7 @@ RectTransform:
   m_GameObject: {fileID: 1764529715}
   m_LocalRotation: {x: 0, y: 0, z: -1, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
+  m_LocalScale: {x: 0.84, y: 0.84, z: 0.84}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 385832981}
@@ -24039,7 +24733,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 180, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -27}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1764529717
@@ -24073,7 +24767,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278190080
   m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -24207,7 +24901,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1827138277
 GameObject:
@@ -24422,7 +25116,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000030517578, y: 356.00012}
+  m_AnchoredPosition: {x: 360, y: 321}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1827196405
@@ -25026,6 +25720,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 331163952}
+        m_TargetAssemblyTypeName: Switching, Assembly-CSharp
+        m_MethodName: Echec
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 331163952}
+        m_TargetAssemblyTypeName: Switching, Assembly-CSharp
+        m_MethodName: resetScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1870070352
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25383,7 +26101,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 369, y: 81}
+  m_AnchoredPosition: {x: 369, y: 48}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1900457237
@@ -25438,6 +26156,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: -1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 872758439}
+        m_TargetAssemblyTypeName: Switching, Assembly-CSharp
+        m_MethodName: Switch
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -25573,6 +26303,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 846310085}
+        m_TargetAssemblyTypeName: Switching, Assembly-CSharp
+        m_MethodName: Switch
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -25932,7 +26674,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -426, y: 382}
+  m_AnchoredPosition: {x: 343, y: 323}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1964766786
@@ -26018,7 +26760,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 8.095213, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -26059,7 +26801,7 @@ RectTransform:
   m_GameObject: {fileID: 1969162657}
   m_LocalRotation: {x: 0, y: 0, z: -1, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
+  m_LocalScale: {x: 0.92, y: 0.92, z: 0.92}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 385832981}
@@ -26067,7 +26809,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 180, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -18}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1969162659
@@ -26090,8 +26832,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "F : En vrai heureusement que j'aime bien les maths et la physique, mais
-    je suis pas tr\xE8s forte alors \xE7a mfini par m'\xE9nerver... c'est mort."
+  m_text: "F : Heureusement que j'aime bien les maths et la physique, mais je suis
+    pas tr\xE8s forte alors \xE7a mfini par m'\xE9nerver... c'est mort."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -26100,7 +26842,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278190080
   m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -26756,6 +27498,7 @@ GameObject:
   - component: {fileID: 2013097211}
   - component: {fileID: 2013097210}
   - component: {fileID: 2013097209}
+  - component: {fileID: 2013097212}
   m_Layer: 5
   m_Name: But83
   m_TagString: Untagged
@@ -26840,6 +27583,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2013097212}
+        m_TargetAssemblyTypeName: Switching, Assembly-CSharp
+        m_MethodName: Switch
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2013097210
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26878,6 +27633,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2013097207}
   m_CullTransparentMesh: 1
+--- !u!114 &2013097212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2013097207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efe4b21ae6b0bea4cb2976852a5c4a09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deleteObj: {fileID: 872758437}
+  displayObj: {fileID: 283541553}
+  deleteTxt: {fileID: 515821127}
+  displayTxt: {fileID: 119717094}
+  pannelError: {fileID: 1685454507}
+  BoutonReset: {fileID: 580893022}
 --- !u!1 &2017921431
 GameObject:
   m_ObjectHideFlags: 0
@@ -27107,6 +27880,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 338526520}
+        m_TargetAssemblyTypeName: Switching, Assembly-CSharp
+        m_MethodName: Switch
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -27443,7 +28228,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: a69d0cc52bcb1c34fb590fb29ab9145c, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a69d0cc52bcb1c34fb590fb29ab9145c, type: 3}
       propertyPath: m_LocalScale.x
@@ -27542,7 +28327,7 @@ RectTransform:
   m_GameObject: {fileID: 2043954574}
   m_LocalRotation: {x: 0, y: 0, z: -1, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
+  m_LocalScale: {x: 0.84, y: 0.84, z: 0.84}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 385832981}
@@ -27550,7 +28335,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 180, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -15}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2043954576
@@ -27573,7 +28358,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "F : Bah j'aime bien sortir voir mes amies pour ne pas rester \xE0 la maison,
+  m_text: "F : J'aime bien sortir voir mes amies pour ne pas rester \xE0 la maison,
     ou j'aime bien faire de la musique, et r\xE9cemment ma m\xE8re m'a achet\xE9e
     une t\xEAte pour m'entrainer \xE0 la coiffure..."
   m_isRightToLeft: 0
@@ -27584,7 +28369,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278190080
   m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -27741,6 +28526,30 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: Scoring, Assembly-CSharp
         m_MethodName: OnClick
         m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 333082699}
+        m_TargetAssemblyTypeName: Switching, Assembly-CSharp
+        m_MethodName: Echec
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 333082699}
+        m_TargetAssemblyTypeName: Switching, Assembly-CSharp
+        m_MethodName: resetScene
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -27993,7 +28802,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 330, y: 135}
+  m_AnchoredPosition: {x: 280, y: 135}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2081495722
@@ -28023,7 +28832,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -29528,7 +30337,7 @@ Transform:
   - {fileID: 6645823806324420338}
   - {fileID: 6738450968706704914}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1 &546089008455309265
 GameObject:
@@ -39101,7 +39910,7 @@ Transform:
   m_Children:
   - {fileID: 7479152511742304128}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6957663278915243988
 GameObject:
