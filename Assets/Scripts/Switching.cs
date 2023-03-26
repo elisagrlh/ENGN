@@ -12,9 +12,6 @@ public class Switching : MonoBehaviour
     public GameObject pannelError;
     public GameObject BoutonReset;
 
-    //Elisa
-    //public int score;
-
 
     public void Switch()
     {
