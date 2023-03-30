@@ -15,9 +15,9 @@ public class Scoring : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        scoreTotalText = GameObject.Find("Canvas/ScoreText").GetComponent<Text>();
+        scoreTotalText = GameObject.Find("Canvas2/ScoreText").GetComponent<Text>();
 
-        slider = GameObject.Find("Canvas/Slider").GetComponent<Slider>();
+        slider = GameObject.Find("Canvas2/Slider").GetComponent<Slider>();
         SetMaxBar();
     }
 
@@ -42,10 +42,6 @@ public class Scoring : MonoBehaviour
         if(slider != null)
             slider.value = scoreTotal;
 
-        else
-        {
-
-        }
     }
 
     
